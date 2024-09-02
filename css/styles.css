@@ -92,7 +92,7 @@ a {
 }
 .menu-item {
   margin-right: 40px;
-  color: #404bbf; 
+
 }
 .menu-link {
   display: block;
@@ -114,6 +114,7 @@ a {
   position: relative;
   padding-top: 24px;
   padding-bottom: 24px;
+  color: #404bbf; 
 }
 
 .menu-link.current::after {
@@ -429,11 +430,12 @@ a {
   column-gap: 24px;
   row-gap: 48px;
   max-width: 1158;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-item {
   display: block;
   width: calc((100% - 48px) / 3);
-  transition: box-shadow 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .portfolio-list-item:hover {
   box-shadow: 0px 2px 1px 0px #2e2f4214, 0px 1px 1px 0px #2e2f4229,
