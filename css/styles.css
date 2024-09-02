@@ -88,10 +88,11 @@ a {
   gap: 40px;
   flex-basis: calc((100%-2 * 24px) / 3);
   margin-right: 332px;
-  color: #404bbf; 
+
 }
 .menu-item {
   margin-right: 40px;
+  color: #404bbf; 
 }
 .menu-link {
   display: block;
@@ -432,7 +433,7 @@ a {
 .portfolio-item {
   display: block;
   width: calc((100% - 48px) / 3);
-  transition: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms, cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-list-item:hover {
   box-shadow: 0px 2px 1px 0px #2e2f4214, 0px 1px 1px 0px #2e2f4229,
@@ -460,7 +461,7 @@ a {
   top: 0;
   transform: translateY(100%);
   background-color: #4d5ae5;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-item:hover .overlay {
   transform: translateY(0);
